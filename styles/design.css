@@ -26,6 +26,9 @@ nav ul{
     align-items: center;
 }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -40,6 +43,19 @@ nav ul{
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
 }
 .nav-title{
     font-weight: 800;
@@ -72,4 +88,86 @@ nav li a{
 }
 .banner-dp{
     width: 580px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+    color: #757575;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    color: rgba(71, 71, 71, 1);
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    color: rgba(71, 71, 71, 1);
+    font-weight: bold;
+    font-size: 25px;
+}
+.experience-sub-title{
+    font-weight: 500;
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
